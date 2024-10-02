@@ -6,3 +6,15 @@ This project is a simple web scraper built using Puppeteer, designed to scrape l
 
 - Scrapes listing title, price, location, time posted and URL.
 - Simple Express API.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
+
+## Installation
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/puppeteer-web-scraper.git
+   cd puppeteer-web-scraper
