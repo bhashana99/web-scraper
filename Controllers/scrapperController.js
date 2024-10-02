@@ -1,1 +1,5 @@
-//scrapper controller
+
+
+export const fetchScrapedData = async(req,res) => {
+    
+}
