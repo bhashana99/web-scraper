@@ -40,7 +40,7 @@ You can test the API using tools like Postman or directly in the browser.
    ```bash
    http://localhost:3000/search?keyword=iphone
    
-2. **Using Browser:**:
+2. **Using Browser**:
    You can also test the API directly in your browser by visiting:
    ```bash
    http://localhost:3000/search?keyword=iphone
