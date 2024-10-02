@@ -10,7 +10,8 @@ export const scrapData = async (searchKeyword) => {
   // Navigate the page to a URL.
   await page.goto(`https://ikman.lk/en/ads?query=${searchKeyword}`);
 
-  
+  // Wait for the listings to load
+  await page.waitForSelector('.list--3NxGO');
 
 
 
