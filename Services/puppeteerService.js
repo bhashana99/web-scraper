@@ -11,7 +11,7 @@ export const scrapData = async (searchKeyword) => {
 
   // Wait for the listings to load
   await page.waitForSelector(".list--3NxGO");
-
+//
   const items = await page.evaluate(() => {
     const data = [];
     const itemList = document.querySelectorAll(".list--3NxGO > li");
